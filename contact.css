@@ -1,0 +1,38 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.first {
+    
+    width: 3500px;
+    border: 1px solid black;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    flex-direction: column;
+}
+.upper {
+    text-align: left;
+    color: azure;
+}
+#second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    border-radius: 15px;
+}
+input {
+    height: 20px;
+    width: 160px;
+}
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}

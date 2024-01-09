@@ -1,0 +1,82 @@
+body {
+    background-image: url("https://i.ytimg.com/vi/8i4oVCgovjc/maxresdefault.jpg");
+    font-family: fantasy;
+}
+.numbero1 {
+   display: flex;
+   flex-direction: row;
+   min-height: 100vh;
+}
+#hello {
+    width: 3500px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* color: #000; /* Fallback for older browsers
+    color: rgba(0, 0, 0, 0.5);
+
+    font-size: 16pt;
+     font-family: Arial, sans-serif; 
+    opacity: 0.5; */
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+}
+.image{
+    width: 350px;
+    height: 350px;
+    border-radius: 100px;
+}
+#hi {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.btn{
+    justify-content: space-around;
+}
+.text {
+    /* border: 1px solid black; */
+   
+    margin-left: 50px;
+}
+.Roast {
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 15px;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.the_icons {
+    display: flex;
+    justify-content: space-around;
+    
+}
+i {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+}
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vh;
+    height: 50px;
+    width: 500px;
+
+}
+
+.btn_stuff {
+    height: 45px;
+    width : 150px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
